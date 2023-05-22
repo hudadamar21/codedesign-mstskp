@@ -1,8 +1,11 @@
+import TopSection from "./components/sections/TopSection";
+import MainLayout from "./layouts/MainLayout";
+
 function App() {
   return (
-    <>
-      <div className="bg-blue-500 h-screen"></div>
-    </>
+    <MainLayout>
+      <TopSection />
+    </MainLayout>
   );
 }
 
