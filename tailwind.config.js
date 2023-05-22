@@ -2,7 +2,19 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: '#FC881D',
+        dark: '#0D0E25'
+      },
+      fontFamily: {
+        'dm-sans': "'DM Sans', sans-serif",
+        'source-sans-pro': "'Source Sans Pro', sans-serif"
+      },
+      screens: {
+        lg: '1180px'
+      }
+    },
   },
   plugins: [],
 };
