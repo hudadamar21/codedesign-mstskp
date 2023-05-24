@@ -3,8 +3,8 @@ import PlayIcon from "../icon/PlayIcon";
 
 function FeaturesSection() {
   return (
-    <section className="relative main-container grid grid-cols-2 items-center mt-44">
-      <div className="pr-24">
+    <section className="relative main-container grid grid-cols-1 md:grid-cols-2 gap-20 md:gap-0 items-center mt-20 md:mt-44 px-5">
+      <div className="md:pr-24">
         <div className="text-primary uppercase flex items-center gap-x-2 mb-2 font-semibold">
           <div className="h-1 w-12 bg-primary"></div>
           Kenapa Sih?
@@ -44,7 +44,7 @@ function FeaturesSection() {
               <div className="icon p-3 bg-primary/10 rounded-lg">{feature.icon}</div>
               <h3>{feature.name}</h3>
             </div>
-            <p className="leading-[30px]">{feature.descripton}</p>
+            <p className="leading-[30px] text-sm md:text-base">{feature.descripton}</p>
           </div>
         ))}
       </div>
