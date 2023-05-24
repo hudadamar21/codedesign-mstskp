@@ -4,16 +4,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#FC881D',
-        dark: '#0D0E25'
+        primary: "#FC881D",
+        light: "#FFF6ED",
+        dark: "#0D0E25",
       },
       fontFamily: {
-        'dm-sans': "'DM Sans', sans-serif",
-        'source-sans-pro': "'Source Sans Pro', sans-serif"
+        "dm-sans": "'DM Sans', sans-serif",
+        "source-sans-pro": "'Source Sans Pro', sans-serif",
       },
       screens: {
-        lg: '1180px'
-      }
+        lg: "1180px",
+      },
     },
   },
   plugins: [],
