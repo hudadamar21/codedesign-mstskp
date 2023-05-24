@@ -1,4 +1,4 @@
-import { footerMenus } from "../../data/footer";
+import { footerMenus } from "../../data/footer-menu";
 
 function MainFooter() {
   return (
