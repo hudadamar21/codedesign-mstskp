@@ -5,7 +5,7 @@ import ArrowRight from "../icon/ArrowRight";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { NavArrowLeft, NavArrowRight } from "../icon/NavArrow";
+// import { NavArrowLeft, NavArrowRight } from "../icon/NavArrow";
 
 function AlternativeSection() {
   return (
