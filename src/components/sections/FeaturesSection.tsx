@@ -3,7 +3,7 @@ import PlayIcon from "../icon/PlayIcon";
 
 function FeaturesSection() {
   return (
-    <section className="relative main-container grid grid-cols-1 md:grid-cols-2 gap-20 md:gap-0 items-center mt-20 md:mt-44 px-5">
+    <section id="features" className="relative main-container grid grid-cols-1 md:grid-cols-2 gap-20 md:gap-0 items-center mt-20 md:mt-44 px-5">
       <div className="md:pr-24">
         <div className="text-primary uppercase flex items-center gap-x-2 mb-2 font-semibold">
           <div className="h-1 w-12 bg-primary"></div>
@@ -26,7 +26,7 @@ function FeaturesSection() {
           </div>
         </a>
       </div>
-      <div className="grid grid-cols-2 gap-px bg-dark/5">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-dark/5">
         {features.map((feature, i) => (
           <div
             className={`
