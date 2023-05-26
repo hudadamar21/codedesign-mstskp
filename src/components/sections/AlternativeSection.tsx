@@ -64,12 +64,12 @@ function AlternativeSection() {
             </SwiperSlide>
           ))}
         </Swiper>
-        <button className="alternative-next-slide absolute top-[35%] right-0 z-20 text-primary transition duration-200" type="button">
+        {/* <button className="alternative-next-slide absolute top-[35%] right-0 z-20 text-primary transition duration-200" type="button">
           <NavArrowRight/>
         </button>
         <button className="alternative-prev-slide absolute top-[35%] left-0 z-20 text-primary transition duration-200" type="button">
           <NavArrowLeft/>
-        </button>
+        </button> */}
       </div>
     </section>
   );
