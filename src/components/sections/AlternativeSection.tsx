@@ -1,4 +1,4 @@
-import { Navigation } from 'swiper';
+// import { Navigation } from 'swiper';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { alternatives } from "../../data/alternatives";
 import ArrowRight from "../icon/ArrowRight";
@@ -32,13 +32,13 @@ function AlternativeSection() {
       </div>
       <div className="relative z-10 main-container mx-5 md:mx-auto bg-white rounded-3xl p-10 md:p-20 text-black mt-12 md:mt-20 shadow-2xl">
         <Swiper
-          modules={[Navigation]}
+          // modules={[Navigation]}
           spaceBetween={30}
           slidesPerView={1}
-          navigation={{
-            nextEl: ".alternative-next-slide",
-            prevEl: ".alternative-prev-slide",
-          }}
+          // navigation={{
+          //   nextEl: ".alternative-next-slide",
+          //   prevEl: ".alternative-prev-slide",
+          // }}
           breakpoints={{
             640: {
               slidesPerView: 2,
