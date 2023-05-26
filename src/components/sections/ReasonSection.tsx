@@ -2,7 +2,7 @@ import { reasons } from "../../data/reason";
 
 function ReasonSection() {
   return (
-    <section className="relative main-container flex flex-col justify-center items-center mt-32 md:mt-64 px-5">
+    <section id="reasons" className="relative main-container flex flex-col justify-center items-center mt-32 md:mt-64 px-5">
       <div className="space-y-6 text-center w-full md:w-1/2 mb-20">
         <div className="text-primary font-semibold tracking-widest">TERUS GIMANA?</div>
         <h2 className="font-bold text-4xl">Terus Ngapain Dong Kalo Nggak Ada Insight Apapun?</h2>
