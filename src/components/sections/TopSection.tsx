@@ -3,7 +3,8 @@ import PlayIcon from "../icon/PlayIcon";
 function TopSection() {
   return (
     <section
-      className="relative bg-[size:auto_100%] lg:bg-[size:100%_auto] bg-no-repeat pt-56 pb-64"
+      id="top"
+      className="relative bg-[size:auto_100%] lg:bg-[size:100%_auto] bg-no-repeat pt-24 md:pt-56 pb-32"
       style={{ backgroundImage: "url(/images/bg-hero-section.svg)" }}>
       {/* <img
         className="absolute top-0 inset-0 w-full origin-top scale-y-"
@@ -46,7 +47,7 @@ function TopSection() {
           </a>
         </div>
 
-        <img className="-mb-32" src="/images/hero-image.svg" alt="hero image" />
+        <img src="/images/hero-image.svg" alt="hero image" />
       </div>
     </section>
   );
