@@ -30,7 +30,7 @@ function AlternativeSection() {
           </p>
         </div>
       </div>
-      <div className="relative z-10 main-container mx-5 md:mx-auto bg-white rounded-3xl py-5 md:p-20 text-black mt-12 md:mt-20 shadow-2xl">
+      <div className="relative z-10 main-container mx-5 md:mx-auto bg-white rounded-3xl py-7 md:p-20 text-black mt-12 md:mt-20 shadow-2xl">
         <Swiper
           // modules={[Navigation]}
           spaceBetween={20}
@@ -44,12 +44,12 @@ function AlternativeSection() {
               slidesPerView: 2,
             },
           }}
-          className="grid grid-cols-1 md:grid-cols-2 gap-10 pl-5 pr-12 md:p-0">
+          className="grid grid-cols-1 md:grid-cols-2 gap-10 pl-7 pr-12 md:p-0">
           {alternatives.map((alternative, i) => (
             <SwiperSlide key={i}>
               <div className="space-y-6 ">
                 <img
-                  className="rounded-xl w-full"
+                  className="w-full"
                   src={alternative.thumbnail}
                   alt={alternative.name}
                 />
