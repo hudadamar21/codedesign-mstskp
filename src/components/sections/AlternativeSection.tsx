@@ -30,10 +30,10 @@ function AlternativeSection() {
           </p>
         </div>
       </div>
-      <div className="relative z-10 main-container mx-5 md:mx-auto bg-white rounded-3xl p-10 md:p-20 text-black mt-12 md:mt-20 shadow-2xl">
+      <div className="relative z-10 main-container mx-5 md:mx-auto bg-white rounded-3xl py-5 md:p-20 text-black mt-12 md:mt-20 shadow-2xl">
         <Swiper
           // modules={[Navigation]}
-          spaceBetween={30}
+          spaceBetween={20}
           slidesPerView={1}
           // navigation={{
           //   nextEl: ".alternative-next-slide",
@@ -44,19 +44,19 @@ function AlternativeSection() {
               slidesPerView: 2,
             },
           }}
-          className="grid grid-cols-1 md:grid-cols-2 gap-10">
+          className="grid grid-cols-1 md:grid-cols-2 gap-10 pl-5 pr-12 md:p-0">
           {alternatives.map((alternative, i) => (
             <SwiperSlide key={i}>
               <div className="space-y-6 ">
                 <img
-                  className="rounded-lg w-full"
+                  className="rounded-xl w-full"
                   src={alternative.thumbnail}
                   alt={alternative.name}
                 />
-                <p className="text-base md:text-lg lg:text-[22px]">{alternative.description}</p>
+                <p className="text-base md:text-lg lg:text-[22px] pl-1 line-clamp-3">{alternative.description}</p>
                 <a
                   href={alternative.url}
-                  className="flex items-center gap-3 font-semibold text-sm md:text-base">
+                  className="flex items-center gap-3 font-semibold text-sm md:text-base pl-1">
                   Learn More
                   <ArrowRight />
                 </a>
