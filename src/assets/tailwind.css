@@ -7,3 +7,7 @@
     @apply max-w-screen-lg mx-auto
   }
 }
+
+.swiper-button-disabled {
+  @apply opacity-0
+}
